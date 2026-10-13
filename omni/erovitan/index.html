@@ -340,7 +340,7 @@ body.free .disc,body:not(.free) .nodisc{display:none}
         <div class="product-card">
           <span class="disc-ribbon disc"></span>
           <img src="../../img/src-omni-erovitan.webp" alt="Erovitan" width="565" height="560" fetchpriority="high" decoding="async">
-          <div><span class="ribbon">1 упаковка в подарок</span><div class="shotcap">Это оригинальная упаковка, которую привезёт курьер: пломба, номер партии, срок годности.</div></div>
+          <div><span class="ribbon">1 упаковка бесплатно</span><div class="shotcap">Это оригинальная упаковка, которую привезёт курьер: пломба, номер партии, срок годности.</div></div>
         </div>
       </div>
         <div class="scarcity" id="scarcity">
@@ -356,7 +356,7 @@ body.free .disc,body:not(.free) .nodisc{display:none}
       <div id="buy">
         <h1>Erovitan® — единственный официальный сайт</h1>
         <div class="price-box">
-          <span class="price-new">+1 упаковка В ПОДАРОК</span>
+          <span class="price-new">1 упаковка БЕСПЛАТНО</span>
           <span class="price-old"></span>
           <span class="save-badge disc"></span>
         </div>
@@ -371,7 +371,7 @@ body.free .disc,body:not(.free) .nodisc{display:none}
             <p class="ph-err">Введите корректный номер телефона</p>
             <p class="phonewhy">Номер нужен для звонка с подтверждением. Его получают только продавец, служба подтверждения заказов и курьер.</p>
             <input type="hidden" name="kw" value="rueu-omni-erovitan">
-            <button class="btn btn-primary btn-cta" type="submit">ЗАКАЗАТЬ С ПОДАРКОМ</button>
+            <button class="btn btn-primary btn-cta" type="submit">ЗАКАЗАТЬ БЕСПЛАТНО</button>
             <p class="today-line">🛒 Сегодня уже заказали <b class="todayN">—</b> человек</p>
             <p class="form-note">Оплата при получении посылки; подарочная упаковка приходит в той же посылке</p>
           </form>
@@ -577,7 +577,7 @@ body.free .disc,body:not(.free) .nodisc{display:none}
           <div class="eyebrow" style="color:#7fb0ff">Единственный официальный сайт производителя</div>
           <h2>Закажите оригинальный Erovitan®</h2>
           <p class="muted" style="font-size:14.5px">Заполните форму: консультант перезвонит в течение нескольких минут, чтобы подтвердить адрес и дату доставки. Без предоплаты.</p>
-          <div class="price-box"><span class="price-new">+1 упаковка В ПОДАРОК</span><span class="price-old"></span><span class="save-badge disc"></span></div>
+          <div class="price-box"><span class="price-new">1 упаковка БЕСПЛАТНО</span><span class="price-old"></span><span class="save-badge disc"></span></div>
           <ul class="perks">
             <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Оплата только при получении</li>
             <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Проверка до оплаты</li>
@@ -594,7 +594,7 @@ body.free .disc,body:not(.free) .nodisc{display:none}
             <p class="ph-err">Введите корректный номер телефона</p>
             <p class="phonewhy">Номер нужен для звонка с подтверждением. Его получают только продавец, служба подтверждения заказов и курьер.</p>
             <input type="hidden" name="kw" value="rueu-omni-erovitan">
-            <button class="btn btn-primary btn-cta" type="submit">ЗАКАЗАТЬ С ПОДАРКОМ</button>
+            <button class="btn btn-primary btn-cta" type="submit">ЗАКАЗАТЬ БЕСПЛАТНО</button>
             <p class="today-line">🛒 Сегодня уже заказали <b class="todayN">—</b> человек</p>
             <p class="form-note">Оплата при получении посылки; подарочная упаковка приходит в той же посылке</p>
           </form>
@@ -606,7 +606,7 @@ body.free .disc,body:not(.free) .nodisc{display:none}
   </div>
 </section>
 
-<div class="sticky-cta" id="stickyCta"><div class="p">+1 упаковка В ПОДАРОК<small></small></div><a class="btn btn-primary" href="#buy" id="stickyBtn">ЗАКАЗАТЬ С ПОДАРКОМ</a></div>
+<div class="sticky-cta" id="stickyCta"><div class="p">1 упаковка БЕСПЛАТНО<small></small></div><a class="btn btn-primary" href="#buy" id="stickyBtn">ЗАКАЗАТЬ БЕСПЛАТНО</a></div>
 <footer>
   <div class="wrap">
     <div class="legal"><b>Прямые продажи производителя</b><br>Заказы обрабатывает официальная служба поддержки клиентов производителя. Персональные данные используются только для выполнения заказа.</div>
@@ -618,7 +618,7 @@ body.free .disc,body:not(.free) .nodisc{display:none}
 
 <script>
 (function(){
-  var WORKER='https://pilot-leads.bnsshub.workers.dev', KW='rueu-omni-erovitan', KEYWORD='erovitan', BTN='ЗАКАЗАТЬ С ПОДАРКОМ';
+  var WORKER='https://pilot-leads.bnsshub.workers.dev', KW='rueu-omni-erovitan', KEYWORD='erovitan', BTN='ЗАКАЗАТЬ БЕСПЛАТНО';
   if(''==='') document.body.classList.add('free');
   // 13.10: одна отправка на страницу — после успеха прячем ОБЕ формы, помним сутки в localStorage (повтор из второй формы/после перезагрузки давал 7% дублей)
   var SENT_KEY='lp_sent_'+KW, sending=false;
@@ -717,7 +717,7 @@ body.free .disc,body:not(.free) .nodisc{display:none}
   // --- маска национального номера: код страны и допустимая длина берутся из локали (L.cc/L.phMin/L.phMax/L.ph0)
   var CCD=L.cc.replace(/\D/g,'');
   // --- RUEU: страна выбирается в форме — меняет код телефона, длину номера и цену (список стран подставляет сборка)
-  var CTY={"LV": {"cc": "+371", "phMin": 8, "phMax": 8, "ph0": false, "flag": "🇱🇻", "name": "Латвия", "price": "+1 упаковка В ПОДАРОК", "old": ""}, "LT": {"cc": "+370", "phMin": 8, "phMax": 8, "ph0": true, "flag": "🇱🇹", "name": "Литва", "price": "+1 упаковка В ПОДАРОК", "old": ""}, "EE": {"cc": "+372", "phMin": 7, "phMax": 8, "ph0": false, "flag": "🇪🇪", "name": "Эстония", "price": "+1 упаковка В ПОДАРОК", "old": ""}, "DE": {"cc": "+49", "phMin": 10, "phMax": 11, "ph0": true, "flag": "🇩🇪", "name": "Германия", "price": "+1 упаковка В ПОДАРОК", "old": ""}, "CY": {"cc": "+357", "phMin": 8, "phMax": 8, "ph0": false, "flag": "🇨🇾", "name": "Кипр", "price": "+1 упаковка В ПОДАРОК", "old": ""}, "CZ": {"cc": "+420", "phMin": 9, "phMax": 9, "ph0": false, "flag": "🇨🇿", "name": "Чехия", "price": "+1 упаковка В ПОДАРОК", "old": ""}, "AT": {"cc": "+43", "phMin": 10, "phMax": 13, "ph0": true, "flag": "🇦🇹", "name": "Австрия", "price": "+1 упаковка В ПОДАРОК", "old": ""}, "IT": {"cc": "+39", "phMin": 8, "phMax": 11, "ph0": false, "flag": "🇮🇹", "name": "Италия", "price": "+1 упаковка В ПОДАРОК", "old": ""}, "GR": {"cc": "+30", "phMin": 10, "phMax": 10, "ph0": false, "flag": "🇬🇷", "name": "Греция", "price": "+1 упаковка В ПОДАРОК", "old": ""}, "ES": {"cc": "+34", "phMin": 9, "phMax": 9, "ph0": false, "flag": "🇪🇸", "name": "Испания", "price": "+1 упаковка В ПОДАРОК", "old": ""}, "PT": {"cc": "+351", "phMin": 9, "phMax": 9, "ph0": false, "flag": "🇵🇹", "name": "Португалия", "price": "+1 упаковка В ПОДАРОК", "old": ""}, "SK": {"cc": "+421", "phMin": 9, "phMax": 9, "ph0": true, "flag": "🇸🇰", "name": "Словакия", "price": "+1 упаковка В ПОДАРОК", "old": ""}, "HR": {"cc": "+385", "phMin": 8, "phMax": 9, "ph0": true, "flag": "🇭🇷", "name": "Хорватия", "price": "+1 упаковка В ПОДАРОК", "old": ""}, "BG": {"cc": "+359", "phMin": 8, "phMax": 9, "ph0": true, "flag": "🇧🇬", "name": "Болгария", "price": "+1 упаковка В ПОДАРОК", "old": ""}, "RO": {"cc": "+40", "phMin": 9, "phMax": 9, "ph0": true, "flag": "🇷🇴", "name": "Румыния", "price": "+1 упаковка В ПОДАРОК", "old": ""}, "PL": {"cc": "+48", "phMin": 9, "phMax": 9, "ph0": true, "flag": "🇵🇱", "name": "Польша", "price": "+1 упаковка В ПОДАРОК", "old": ""}, "HU": {"cc": "+36", "phMin": 8, "phMax": 9, "ph0": true, "flag": "🇭🇺", "name": "Венгрия", "price": "+1 упаковка В ПОДАРОК", "old": ""}}, CTYSEL=null;
+  var CTY={"LV": {"cc": "+371", "phMin": 8, "phMax": 8, "ph0": false, "flag": "🇱🇻", "name": "Латвия", "price": "1 упаковка БЕСПЛАТНО", "old": ""}, "LT": {"cc": "+370", "phMin": 8, "phMax": 8, "ph0": true, "flag": "🇱🇹", "name": "Литва", "price": "1 упаковка БЕСПЛАТНО", "old": ""}, "EE": {"cc": "+372", "phMin": 7, "phMax": 8, "ph0": false, "flag": "🇪🇪", "name": "Эстония", "price": "1 упаковка БЕСПЛАТНО", "old": ""}, "DE": {"cc": "+49", "phMin": 10, "phMax": 11, "ph0": true, "flag": "🇩🇪", "name": "Германия", "price": "1 упаковка БЕСПЛАТНО", "old": ""}, "CY": {"cc": "+357", "phMin": 8, "phMax": 8, "ph0": false, "flag": "🇨🇾", "name": "Кипр", "price": "1 упаковка БЕСПЛАТНО", "old": ""}, "CZ": {"cc": "+420", "phMin": 9, "phMax": 9, "ph0": false, "flag": "🇨🇿", "name": "Чехия", "price": "1 упаковка БЕСПЛАТНО", "old": ""}, "AT": {"cc": "+43", "phMin": 10, "phMax": 13, "ph0": true, "flag": "🇦🇹", "name": "Австрия", "price": "1 упаковка БЕСПЛАТНО", "old": ""}, "IT": {"cc": "+39", "phMin": 8, "phMax": 11, "ph0": false, "flag": "🇮🇹", "name": "Италия", "price": "1 упаковка БЕСПЛАТНО", "old": ""}, "GR": {"cc": "+30", "phMin": 10, "phMax": 10, "ph0": false, "flag": "🇬🇷", "name": "Греция", "price": "1 упаковка БЕСПЛАТНО", "old": ""}, "ES": {"cc": "+34", "phMin": 9, "phMax": 9, "ph0": false, "flag": "🇪🇸", "name": "Испания", "price": "1 упаковка БЕСПЛАТНО", "old": ""}, "PT": {"cc": "+351", "phMin": 9, "phMax": 9, "ph0": false, "flag": "🇵🇹", "name": "Португалия", "price": "1 упаковка БЕСПЛАТНО", "old": ""}, "SK": {"cc": "+421", "phMin": 9, "phMax": 9, "ph0": true, "flag": "🇸🇰", "name": "Словакия", "price": "1 упаковка БЕСПЛАТНО", "old": ""}, "HR": {"cc": "+385", "phMin": 8, "phMax": 9, "ph0": true, "flag": "🇭🇷", "name": "Хорватия", "price": "1 упаковка БЕСПЛАТНО", "old": ""}, "BG": {"cc": "+359", "phMin": 8, "phMax": 9, "ph0": true, "flag": "🇧🇬", "name": "Болгария", "price": "1 упаковка БЕСПЛАТНО", "old": ""}, "RO": {"cc": "+40", "phMin": 9, "phMax": 9, "ph0": true, "flag": "🇷🇴", "name": "Румыния", "price": "1 упаковка БЕСПЛАТНО", "old": ""}, "PL": {"cc": "+48", "phMin": 9, "phMax": 9, "ph0": true, "flag": "🇵🇱", "name": "Польша", "price": "1 упаковка БЕСПЛАТНО", "old": ""}, "HU": {"cc": "+36", "phMin": 8, "phMax": 9, "ph0": true, "flag": "🇭🇺", "name": "Венгрия", "price": "1 упаковка БЕСПЛАТНО", "old": ""}}, CTYSEL=null;
   function setCountry(cc){ var c=CTY[cc]; if(!c) return; CTYSEL=cc; L.cc=c.cc; L.phMin=c.phMin; L.phMax=c.phMax; L.ph0=c.ph0; CCD=c.cc.replace(/\D/g,'');
     Array.prototype.forEach.call(document.querySelectorAll('.p48'),function(el){ el.textContent=c.flag+' '+c.cc; });
     var lf=document.getElementById('logoFlag'); if(lf&&c.flag) lf.textContent=c.flag;
